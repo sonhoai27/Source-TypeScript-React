@@ -1,0 +1,29 @@
+{
+  "name": "react-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d lib webpack --mode production",
+    "watch": "webpack --watch"
+  },
+  "author": "sonh",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.3.10",
+    "@types/react-dom": "^16.0.5",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "validate.js": "^0.12.0",
+    "webpack": "^4.5.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.8.1",
+    "webpack-cli": "^2.0.14"
+  }
+}
